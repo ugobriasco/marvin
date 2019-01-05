@@ -1,6 +1,6 @@
 # Marvin
 
-This is a depressing rest api made in NODE v10 api without usage of external libraries
+This is a depressing REST API made with the NODE v8, without the usage of external libraries (e.g. npm/yarn)
 
 ## Setup
 
@@ -15,10 +15,10 @@ This application requires node v8+ only.
 
 ### Endpoints
 
-| Method | Route        | description  | response body            |
-| ------ | ------------ | ------------ | ------------------------ |
-| GET    | ´´´/´´´      | ping the api | ´´´{ message: String}´´´ |
-| POST   | ´´´/hello´´´ | greetings    | ´´´{ message: String}´´  |
+| Method | Route  | Description  | Response body       |
+| ------ | ------ | ------------ | ------------------- |
+| GET    | /      | ping the api | { message: String } |
+| POST   | /hello | greetings    | { message: String } |
 
 # License
 
